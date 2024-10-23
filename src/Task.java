@@ -13,16 +13,16 @@ import java.time.LocalDate;
 	}
 
 	public LocalDate getDate() {
-		return date;
+		return this.date;
 	}
 
 	public String getTask() {
-		return task;
+		return this.task;
 	}
 
 	// boolean型のgetterメソッドはis～とすることもあります
 	public boolean isDone() {
-		return done;
+		return this.done;
 	}
 
 	// compareToメソッドをオーバーライドする
